@@ -1,0 +1,20 @@
+.categoryInfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 10%;
+
+    .card {
+        margin-left: 5%;
+    }
+    a, .categoryInfo-notFound{
+        margin-left: 10%;
+    }
+
+    .categoryInfo-title{
+        color: #00adb5
+    }
+}

@@ -3,7 +3,7 @@ import "./card.css"
 
 export default function Card({ movie }) {
   return (
-    <a href={movie.url} className="hyperlink">
+    <a href={'http://localhost:8000/'+movie.url} className="hyperlink">
       <article className="card">
         <section className="portada">
           <img
