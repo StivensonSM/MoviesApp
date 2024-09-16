@@ -4,12 +4,13 @@
 module.exports = {
   siteMetadata: {
     title: `MoviesApp`,
-    siteUrl: `https://www.yourdomain.tld`
+    description: `Project created as a laboratory for Pragma.`,
+    author: `@StivensonSM, @SantiagoQuintero`,
   },
   plugins: [{
     resolve: 'gatsby-source-contentful',
     options: {
-      "accessToken": "CFPAT-Y5dsyWFz0O28JmUDhIum5vKbBL6Ptl-G66bheQnk9x8",
+      "accessToken": "1-Y7ciBgV0GNhZsdDrUO9xBux2uXtxAFdQfQVEzA7-Q",
       "spaceId": "eoxgsecf1823"
     }
   }, "gatsby-plugin-image", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-sass", {

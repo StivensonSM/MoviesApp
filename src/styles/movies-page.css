@@ -1,0 +1,61 @@
+.movie-header {
+  display: flex;
+  flex-direction: row;
+  color: #222831;
+
+  .movie-header-cover {
+    width: 300px;
+  }
+
+  .movie-header-cover-img {
+    border-radius: 5px;
+  }
+
+  .movie-header-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 25px;
+    font-weight: 400;
+
+    .movie-header-data-description {
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .movie-header-data-title {
+      font-size: 26px;
+      font-weight: 600;
+    }
+
+    .movie-header-data-info {
+      display: flex;
+      flex-direction: row;
+      margin-top: 18px;
+    }
+
+    .movie-header-data-artist,
+    .movie-header-data-duration,
+    .movie-header-data-number-of-songs,
+    .movie-header-data-publication-year {
+      margin-right: 20px;
+    }
+  }
+}
+
+.movie-content {
+  margin-top: 30px;
+  .movie-content-header {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .movie-content-header-number,
+  .movie-content-header-title {
+    margin-left: 6px;
+  }
+
+  .movie-content-list {
+    font-size: 20px;
+  }
+}
